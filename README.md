@@ -12,15 +12,16 @@
 [![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)](https://nodejs.org)
 [![Codex](https://img.shields.io/badge/-Codex-121212?style=flat-square&logo=openai&logoColor=white)](https://github.com/openai/codex)
 [![Claude](https://img.shields.io/badge/-Claude-000000?style=flat-square&logo=anthropic&logoColor=white)](https://claude.ai)
+[![AmpCode](https://img.shields.io/badge/-AmpCode-FF6A00?style=flat-square&logo=sourcegraph&logoColor=white)](https://ampcode.com)
+[![OpenCode](https://img.shields.io/badge/-OpenCode-111111?style=flat-square&logo=opencode&logoColor=white)](https://opencode.ai)
 [![macOS](https://img.shields.io/badge/-macOS-000000?style=flat-square&logo=apple&logoColor=white)](https://www.apple.com/macos)
-[![CLI](https://img.shields.io/badge/-CLI-000000?style=flat-square&logo=gnu-bash&logoColor=white)](https://en.wikipedia.org/wiki/Command-line_interface)
 [![zombiectl](https://img.shields.io/npm/v/@usezombie/zombiectl?style=flat-square&label=zombiectl&color=CB3837&logo=npm&logoColor=white)](https://www.npmjs.com/package/@usezombie/zombiectl)
 
 </div>
 
 ---
 
-> *I am a builder.* I prototype system software in weeks, not years. Currently obsessed with durable agent runtimes, Zig backends, and CLI-first developer tools that actually ship.
+> *I am a builder.* I prototype system software in weeks, not years. Right now I am building [UseZombie](https://usezombie.com): a long-lived agent runtime that wakes on production events, runs against a durable replayable log, and posts evidenced diagnoses instead of chat.
 
 **UseZombie:** [usezombie.com](https://usezombie.com) · [docs.usezombie.com](https://docs.usezombie.com) · [`@usezombie/zombiectl`](https://www.npmjs.com/package/@usezombie/zombiectl)
 
@@ -28,10 +29,9 @@
 
 | Project | Description |
 |---|---|
-| 🧟 **[usezombie](https://github.com/usezombie/usezombie)** | Durable agent runtime. Wake-on-event. Evidence-driven. Control plane + worker + CLI. Web: [usezombie.com](https://usezombie.com). CLI: [`@usezombie/zombiectl`](https://www.npmjs.com/package/@usezombie/zombiectl). |
+| 🧟 **[usezombie](https://github.com/usezombie/usezombie)** | Durable agent runtime. Wake-on-event. Evidence-driven. Control plane + worker + Command Line Interface (CLI). Web: [usezombie.com](https://usezombie.com). CLI: [`@usezombie/zombiectl`](https://www.npmjs.com/package/@usezombie/zombiectl). |
 | 📚 **[usezombie/docs](https://github.com/usezombie/docs)** | [docs.usezombie.com](https://docs.usezombie.com) source — Mintlify-powered docs. |
 | 🦔 **[usezombie/posthog-zig](https://github.com/usezombie/posthog-zig)** | PostHog SDK for Zig — non-blocking event capture with background batch delivery. |
-| ⚡ **rea** | *(stealth mode)* — coming soon. |
 | 🦀 **[megamsys/cache-kit.rs](https://github.com/megamsys/cache-kit.rs)** | Production-ready, fully generic cache framework for Rust. |
 
 ## Legacy Work
