@@ -26,16 +26,8 @@ Bring your own model key or use the platform's. You approve what ships.
 
 ## What happens when an incident fires
 
-```mermaid
-flowchart LR
-  A["Incident · failed deploy<br/>· pull request"] --> B["Agent wakes<br/>on the event"]
-  B --> C["Investigates with your<br/>logs, metrics and code"]
-  C --> D["Explains what went wrong,<br/>prepares a fix"]
-  D --> E{"You approve"}
-  E -->|yes| F["Fix ships"]
-```
-
-Chat bots answer when you mention them; an agentsfleet agent starts when your pager does. Each agent is a `SKILL.md` for the job and a `TRIGGER.md` for its access, so it touches only the tools, secrets and hosts you declared. Every run lands in a replayable activity stream, on the platform's model or a key you bring.
+Chat bots answer when you mention them; an agentsfleet agent starts when your pager does.<br>
+It touches only what you allow, and every run can be replayed.
 
 **Early access is by invitation.** Write to [nkishore@megam.io](mailto:nkishore@megam.io) and I'll set you up.
 
