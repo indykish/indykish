@@ -15,7 +15,6 @@ Now building **[agentsfleet](https://agentsfleet.net)**: prebuilt AI teammates t
 [![Get early access](https://img.shields.io/badge/Get_early_access-5EEAD4?style=for-the-badge&logo=minutemailer&logoColor=0A0D0E)](mailto:nkishore@megam.io)
 [![agentsfleet.net](https://img.shields.io/badge/agentsfleet.net-5EEAD4?style=for-the-badge)](https://agentsfleet.net)
 [![Docs](https://img.shields.io/badge/Docs-5EEAD4?style=for-the-badge)](https://docs.agentsfleet.net)
-[![agentsfleet CLI](https://img.shields.io/npm/v/@agentsfleet/cli?style=for-the-badge&label=agentsfleet%20CLI&color=CB3837&logo=npm&logoColor=white)](https://www.npmjs.com/package/@agentsfleet/cli)
 [![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/H9hH2nqQjh)
 [![X](https://img.shields.io/badge/@indykish-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/indykish)
 
@@ -37,11 +36,6 @@ flowchart LR
 Every step lands in a replayable log, and inference runs on your own provider keys.
 
 **Early access is by invitation.** Write to [nkishore@megam.io](mailto:nkishore@megam.io) and I'll set you up.
-
-```bash
-npm install -g @agentsfleet/cli
-agentsfleet login
-```
 
 ## Current projects
 
