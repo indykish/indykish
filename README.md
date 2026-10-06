@@ -45,9 +45,9 @@ agentsfleet login
 | | Project | What it is |
 |---|---|---|
 | 🛸 | **[agentsfleet](https://github.com/agentsfleet/agentsfleet)** | The teammates' runtime: Rust control plane plus the `agentsfleet` Command Line Interface (CLI). |
-| 🚧 | **[orly](https://github.com/agentsfleet/orly)** | Guardrails for coding agents: rules they read before editing, git-hook gates that fail the commit when they don't. [`@agentsfleet/orly`](https://www.npmjs.com/package/@agentsfleet/orly) |
-| 📚 | **[agentsfleet/docs](https://github.com/agentsfleet/docs)** | Source for [docs.agentsfleet.net](https://docs.agentsfleet.net). |
-| 🦀 | **[cache-kit.rs](https://github.com/megamsys/cache-kit.rs)** | Fully generic cache framework for Rust, on [crates.io](https://crates.io/crates/cache-kit). |
+| 🛡️ | **[orly](https://github.com/agentsfleet/orly)** | Guardrails for coding agents: rules they read before editing, git-hook gates that fail the commit when they don't. [`@agentsfleet/orly`](https://www.npmjs.com/package/@agentsfleet/orly) |
+| 📝 | **[agentsfleet/docs](https://github.com/agentsfleet/docs)** | Source for [docs.agentsfleet.net](https://docs.agentsfleet.net). |
+| ⚡ | **[cache-kit.rs](https://github.com/megamsys/cache-kit.rs)** | Fully generic cache framework for Rust, on [crates.io](https://crates.io/crates/cache-kit). |
 
 ## Track record
 
@@ -64,14 +64,14 @@ agentsfleet login
 - ⚙️ **[vertice](https://github.com/megamsys/vertice)**: omni scheduler and core engine for Megam Vertice *(Go, archived)*
 - 🖥️ **[nilavu](https://github.com/megamsys/nilavu)**: open-source cloud management platform *(JavaScript, archived)*
 - 🌐 **[www.megam.io](https://github.com/megamsys/www.megam.io)**: marketing site *(TypeScript)*
-- 📖 **[docs.megam.io](https://github.com/megamsys/docs.megam.io)**: documentation *(MDX)*
+- 📝 **[docs.megam.io](https://github.com/megamsys/docs.megam.io)**: documentation *(MDX)*
 
 **[@rioos2](https://github.com/rioos2): enterprise cloud operating system *(archived)***
 
-- 🎯 **[commandcenter](https://github.com/rioos2/commandcenter)**: command center and mission control for the datacenter *(JavaScript)*
+- 🎛️ **[commandcenter](https://github.com/rioos2/commandcenter)**: command center and mission control for the datacenter *(JavaScript)*
 - 🤖 **[autorio](https://github.com/rioos2/autorio)**: automation layer *(Ruby)*
-- 🔧 **[beedi](https://github.com/rioos2/beedi)**: infrastructure tooling *(Go)*
-- 🦀 **[aran](https://github.com/rioos2/aran)**: core systems *(Rust)*
+- 🧰 **[beedi](https://github.com/rioos2/beedi)**: infrastructure tooling *(Go)*
+- 🧩 **[aran](https://github.com/rioos2/aran)**: core systems *(Rust)*
 - 🌐 **[rioos.megam.io](https://github.com/rioos2/rioos.megam.io)**: documentation site *(MDX)*
 
 </details>
