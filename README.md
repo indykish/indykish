@@ -33,7 +33,7 @@ flowchart LR
   E -->|yes| F["Fix ships"]
 ```
 
-Chat bots answer when you mention them; an agentsfleet agent starts when your pager does. Each agent is a `SKILL.md` for the job and a `TRIGGER.md` for its access, so it touches only the tools, secrets and hosts you declared. Every run lands in a replayable activity stream, on whichever model key you bring, Claude or Grok included.
+Chat bots answer when you mention them; an agentsfleet agent starts when your pager does. Each agent is a `SKILL.md` for the job and a `TRIGGER.md` for its access, so it touches only the tools, secrets and hosts you declared. Every run lands in a replayable activity stream, on the model key you bring.
 
 **Early access is by invitation.** Write to [nkishore@megam.io](mailto:nkishore@megam.io) and I'll set you up.
 
