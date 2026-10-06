@@ -10,7 +10,7 @@
 
 **I build system software in weeks, not years.** Shipping open-source infrastructure since 2012, from Noida, India.
 
-Now building **[agentsfleet](https://agentsfleet.net)**: an open-source runtime that wakes an AI agent when production breaks, lets it investigate with your logs, metrics and code, and records every run. You bring the model key and approve what ships.
+Now building **[agentsfleet](https://agentsfleet.net)**: an open-source runtime that wakes an AI agent when production breaks, lets it investigate with your logs, metrics and code, and records every run. Bring your own model key or use the platform's; you approve what ships.
 
 [![Get early access](https://img.shields.io/badge/Get_early_access-5EEAD4?style=for-the-badge&logo=minutemailer&logoColor=0A0D0E)](mailto:nkishore@megam.io)
 [![agentsfleet.net](https://img.shields.io/badge/agentsfleet.net-5EEAD4?style=for-the-badge)](https://agentsfleet.net)
@@ -33,7 +33,7 @@ flowchart LR
   E -->|yes| F["Fix ships"]
 ```
 
-Chat bots answer when you mention them; an agentsfleet agent starts when your pager does. Each agent is a `SKILL.md` for the job and a `TRIGGER.md` for its access, so it touches only the tools, secrets and hosts you declared. Every run lands in a replayable activity stream, on the model key you bring.
+Chat bots answer when you mention them; an agentsfleet agent starts when your pager does. Each agent is a `SKILL.md` for the job and a `TRIGGER.md` for its access, so it touches only the tools, secrets and hosts you declared. Every run lands in a replayable activity stream, on the platform's model or a key you bring.
 
 **Early access is by invitation.** Write to [nkishore@megam.io](mailto:nkishore@megam.io) and I'll set you up.
 
