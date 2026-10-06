@@ -42,9 +42,9 @@ It touches only what you allow, and every run can be replayed.
 
 ## Track record
 
-- **2026 → now · [agentsfleet](https://agentsfleet.net):** open-source runtime for agents that wake on production events.
-- **[Rio OS](https://rioos.megam.io):** enterprise cloud operating system. Rust core, Go tooling, a mission-control console. *(archived)*
-- **2012 · [Megam](https://megam.io):** open-source private cloud platform. Scala API gateway, Go scheduler, JavaScript console; [nilavu](https://github.com/megamsys/nilavu) drew 165 forks.
+- 🛸 **2026 → now · [agentsfleet](https://agentsfleet.net):** open-source runtime for agents that wake on production events.
+- 🗄️ **2017 → 2019 · [Rio OS](https://rioos.megam.io) · archived:** enterprise cloud operating system. Rust core, Go tooling, a mission-control console.
+- 🗄️ **2012 → 2017 · [Megam](https://megam.io) · archived:** open-source private cloud platform. Scala API gateway, Go scheduler, JavaScript console; [nilavu](https://github.com/megamsys/nilavu) drew 165 forks.
 
 <details>
 <summary>All legacy repositories</summary>
