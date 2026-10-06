@@ -4,34 +4,39 @@
 
 **🛠️ Builder** | **📍 Noida, India** | **⚡ Trillion Agents getting triggered triggered triggered**
 
+[![Rust](https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white)](https://www.rust-lang.org)
 [![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
 [![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white)](https://go.dev)
-[![Rust](https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white)](https://www.rust-lang.org)
-[![Zig](https://img.shields.io/badge/-Zig-F7A41D?style=flat-square&logo=zig&logoColor=white)](https://ziglang.org)
 [![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)](https://nodejs.org)
+[![Zig](https://img.shields.io/badge/-Zig-F7A41D?style=flat-square&logo=zig&logoColor=white)](https://ziglang.org)
 [![Codex](https://img.shields.io/badge/-Codex-121212?style=flat-square&logo=openai&logoColor=white)](https://github.com/openai/codex)
 [![Claude](https://img.shields.io/badge/-Claude-000000?style=flat-square&logo=anthropic&logoColor=white)](https://claude.ai)
 [![AmpCode](https://img.shields.io/badge/-AmpCode-FF6A00?style=flat-square&logo=sourcegraph&logoColor=white)](https://ampcode.com)
 [![OpenCode](https://img.shields.io/badge/-OpenCode-111111?style=flat-square&logo=opencode&logoColor=white)](https://opencode.ai)
 [![macOS](https://img.shields.io/badge/-macOS-000000?style=flat-square&logo=apple&logoColor=white)](https://www.apple.com/macos)
-[![zombiectl](https://img.shields.io/npm/v/@usezombie/zombiectl?style=flat-square&label=zombiectl&color=CB3837&logo=npm&logoColor=white)](https://www.npmjs.com/package/@usezombie/zombiectl)
+[![agentsfleet CLI](https://img.shields.io/npm/v/@agentsfleet/cli?style=flat-square&label=agentsfleet&color=CB3837&logo=npm&logoColor=white)](https://www.npmjs.com/package/@agentsfleet/cli)
 
 </div>
 
 ---
 
-> *I am a builder.* I prototype system software in weeks, not years. Right now I am building [UseZombie](https://usezombie.com): a long-lived agent runtime that wakes on production events, runs against a durable replayable log, and posts evidenced diagnoses instead of chat.
+> *I am a builder.* I prototype system software in weeks, not years. Right now I am building [agentsfleet](https://agentsfleet.net): a fleet of prebuilt AI teammates for recurring engineering work. Each one wakes on an event (a pull request, an incident, a deploy), finds the root cause, and opens a fix that a human approves before it ships. Every step is a replayable log.
 
-**UseZombie:** [usezombie.com](https://usezombie.com) · [docs.usezombie.com](https://docs.usezombie.com) · [`@usezombie/zombiectl`](https://www.npmjs.com/package/@usezombie/zombiectl)
+**agentsfleet:** [agentsfleet.net](https://agentsfleet.net) · [docs.agentsfleet.net](https://docs.agentsfleet.net) · [`@agentsfleet/cli`](https://www.npmjs.com/package/@agentsfleet/cli)
+
+```bash
+npm install -g @agentsfleet/cli
+agentsfleet login
+```
 
 ## Current Projects
 
 | Project | Description |
 |---|---|
-| 🧟 **[usezombie](https://github.com/usezombie/usezombie)** | Durable agent runtime. Wake-on-event. Evidence-driven. Control plane + worker + Command Line Interface (CLI). Web: [usezombie.com](https://usezombie.com). CLI: [`@usezombie/zombiectl`](https://www.npmjs.com/package/@usezombie/zombiectl). |
-| 📚 **[usezombie/docs](https://github.com/usezombie/docs)** | [docs.usezombie.com](https://docs.usezombie.com) source — Mintlify-powered docs. |
-| 🦔 **[usezombie/posthog-zig](https://github.com/usezombie/posthog-zig)** | PostHog SDK for Zig — non-blocking event capture with background batch delivery. |
+| 🛸 **[agentsfleet](https://github.com/agentsfleet/agentsfleet)** | Prebuilt AI teammates for recurring engineering work. Wake-on-event, human-approved fixes, replayable logs. Rust control plane + Command Line Interface (CLI). Web: [agentsfleet.net](https://agentsfleet.net). CLI: [`@agentsfleet/cli`](https://www.npmjs.com/package/@agentsfleet/cli). |
+| 📚 **[agentsfleet/docs](https://github.com/agentsfleet/docs)** | [docs.agentsfleet.net](https://docs.agentsfleet.net) source — Mintlify-powered docs. |
+| 🚧 **[agentsfleet/orly](https://github.com/agentsfleet/orly)** | Guardrails for coding agents — rules they read before editing, git-hook gates that fail the commit when they don't. npm: [`@agentsfleet/orly`](https://www.npmjs.com/package/@agentsfleet/orly). |
 | 🦀 **[megamsys/cache-kit.rs](https://github.com/megamsys/cache-kit.rs)** | Production-ready, fully generic cache framework for Rust. |
 
 ## Legacy Work
@@ -65,8 +70,8 @@ GitHub already shows my yearly contribution and PR history on [github.com/indyki
 ## What I'm Doing
 
 - 🧪 **Prototyping system software in weeks not years** — shipping over thinking.
-- 🧟 **Building durable agent runtimes** — wake-on-event, evidence-driven outcomes with Zig + TypeScript.
-- 📋 **Evangelizing opinionated AGENTS.md** — so every coding agent knows the rules of engagement.
+- 🛸 **Building fleets of AI teammates** — wake-on-event, human-approved fixes, with Rust + TypeScript.
+- 📋 **Evangelizing opinionated AGENTS.md** — so every coding agent knows the rules of engagement ([orly](https://github.com/agentsfleet/orly) enforces them).
 - 🖥️ **CLI-first tools for macOS** — terminal-native developer experiences.
 - 🏢 **Platform engineering at E2E Networks Limited** — shaping infrastructure from Noida.
 
