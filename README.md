@@ -10,7 +10,7 @@
 
 **I build system software in weeks, not years.** Shipping open-source infrastructure since 2012, from Noida, India.
 
-Now building **[agentsfleet](https://agentsfleet.net)**: prebuilt AI teammates that take recurring engineering work off your plate and hand you the fix to approve.
+Now building **[agentsfleet](https://agentsfleet.net)**: an open-source runtime that wakes an AI agent when production breaks, lets it investigate with your logs, metrics and code, and records every run. You bring the model key and approve what ships.
 
 [![Get early access](https://img.shields.io/badge/Get_early_access-5EEAD4?style=for-the-badge&logo=minutemailer&logoColor=0A0D0E)](mailto:nkishore@megam.io)
 [![agentsfleet.net](https://img.shields.io/badge/agentsfleet.net-5EEAD4?style=for-the-badge)](https://agentsfleet.net)
@@ -22,18 +22,18 @@ Now building **[agentsfleet](https://agentsfleet.net)**: prebuilt AI teammates t
 
 ---
 
-## What an agentsfleet teammate does
+## What happens when an incident fires
 
 ```mermaid
 flowchart LR
-  A["Event<br/>pull request · incident · deploy"] --> B["Teammate wakes"]
-  B --> C["Reads code, telemetry,<br/>docs, live state"]
-  C --> D["Finds the root cause,<br/>opens a fix"]
+  A["Incident · failed deploy<br/>· pull request"] --> B["Agent wakes<br/>on the event"]
+  B --> C["Investigates with your<br/>logs, metrics and code"]
+  C --> D["Explains what went wrong,<br/>prepares a fix"]
   D --> E{"You approve"}
   E -->|yes| F["Fix ships"]
 ```
 
-Every step lands in a replayable log, and inference runs on your own provider keys.
+Chat bots answer when you mention them; an agentsfleet agent starts when your pager does. Each agent is a `SKILL.md` for the job and a `TRIGGER.md` for its access, so it touches only the tools, secrets and hosts you declared. Every run lands in a replayable activity stream, on whichever model key you bring, Claude or Grok included.
 
 **Early access is by invitation.** Write to [nkishore@megam.io](mailto:nkishore@megam.io) and I'll set you up.
 
@@ -41,14 +41,14 @@ Every step lands in a replayable log, and inference runs on your own provider ke
 
 | | Project | What it is |
 |---|---|---|
-| 🛸 | **[agentsfleet](https://github.com/agentsfleet/agentsfleet)** | The teammates' runtime: Rust control plane plus the `agentsfleet` Command Line Interface (CLI). |
+| 🛸 | **[agentsfleet](https://github.com/agentsfleet/agentsfleet)** | Open-source runtime for event-triggered agents: Rust control plane plus the `agentsfleet` Command Line Interface (CLI). |
 | 🛡️ | **[orly](https://github.com/agentsfleet/orly)** | Guardrails for coding agents: rules they read before editing, git-hook gates that fail the commit when they don't. [`@agentsfleet/orly`](https://www.npmjs.com/package/@agentsfleet/orly) |
 | 📝 | **[agentsfleet/docs](https://github.com/agentsfleet/docs)** | Source for [docs.agentsfleet.net](https://docs.agentsfleet.net). |
 | ⚡ | **[cache-kit.rs](https://github.com/megamsys/cache-kit.rs)** | Fully generic cache framework for Rust, on [crates.io](https://crates.io/crates/cache-kit). |
 
 ## Track record
 
-- **2026 → now · [agentsfleet](https://agentsfleet.net):** prebuilt AI teammates for recurring engineering work.
+- **2026 → now · [agentsfleet](https://agentsfleet.net):** open-source runtime for agents that wake on production events.
 - **[Rio OS](https://rioos.megam.io):** enterprise cloud operating system. Rust core, Go tooling, a mission-control console. *(archived)*
 - **2012 · [Megam](https://megam.io):** open-source private cloud platform. Scala API gateway, Go scheduler, JavaScript console; [nilavu](https://github.com/megamsys/nilavu) drew 165 forks.
 
