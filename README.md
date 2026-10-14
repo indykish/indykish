@@ -3,20 +3,20 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/agentsfleet/agentsfleet/main/branding/agentsfleet-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/agentsfleet/agentsfleet/main/branding/agentsfleet-light.svg" />
-  <img src="https://raw.githubusercontent.com/agentsfleet/agentsfleet/main/branding/agentsfleet-dark.svg" width="280" alt="agentsfleet" />
+  <img src="https://raw.githubusercontent.com/agentsfleet/agentsfleet/main/branding/agentsfleet-light.svg" width="280" alt="agentsfleet" />
 </picture>
 
 # Hi, I'm Kishore 👋
 
 **Shipping open-source infrastructure since 2012.**
 
-Now building **[agentsfleet](https://agentsfleet.net)**, an open-source runtime that wakes an AI agent when production breaks.<br>
-It investigates with your logs, metrics and code, and records every run.<br>
-Bring your own model key or use the platform's. You approve what ships.
+Now building **[agentsfleet](https://agentsfleet.net)**, an open-source runtime for AI agents that wake on production events.<br>
+Agents investigate with your logs, metrics and code. Every run leaves an event log.<br>
+Bring your own model key or use the platform's. Tools and access rules control what each fleet can do.
 
-[![Get early access](https://img.shields.io/badge/Get_early_access-5EEAD4?style=for-the-badge&logo=minutemailer&logoColor=0A0D0E)](mailto:nkishore@megam.io)
-[![agentsfleet.net](https://img.shields.io/badge/agentsfleet.net-5EEAD4?style=for-the-badge)](https://agentsfleet.net)
-[![Docs](https://img.shields.io/badge/Docs-5EEAD4?style=for-the-badge)](https://docs.agentsfleet.net)
+[![Get early access](https://img.shields.io/badge/Get_early_access-B8F0CE?style=for-the-badge&logo=minutemailer&logoColor=15221A)](https://agentsfleet.net/#pricing)
+[![agentsfleet.net](https://img.shields.io/badge/agentsfleet.net-B8F0CE?style=for-the-badge)](https://agentsfleet.net)
+[![Docs](https://img.shields.io/badge/Docs-B8F0CE?style=for-the-badge)](https://docs.agentsfleet.net)
 [![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/H9hH2nqQjh)
 [![X](https://img.shields.io/badge/@indykish-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/indykish)
 
@@ -26,10 +26,11 @@ Bring your own model key or use the platform's. You approve what ships.
 
 ## What happens when an incident fires
 
-Chat bots answer when you mention them; an agentsfleet agent starts when your pager does.<br>
-It touches only what you allow, and every run can be replayed.
+Production events can start an agent configured for that job.<br>
+The fleet's definition specifies its tools, triggers and instructions. Its event log records the work.
 
-**Early access is by invitation.** Write to [nkishore@megam.io](mailto:nkishore@megam.io) and I'll set you up.
+**Early access:** [Request access](https://agentsfleet.net/#pricing), or [sign in](https://app.agentsfleet.net/sign-in) if you already have access.<br>
+Write to [nkishore@megam.io](mailto:nkishore@megam.io) to talk about your workflow.
 
 ## Current projects
 
@@ -96,8 +97,6 @@ It touches only what you allow, and every run can be replayed.
 ---
 
 <div align="center">
-
-**⚡ Trillion Agents getting triggered triggered triggered**
 
 **Ship beats perfect.**
 
